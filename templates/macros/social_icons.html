@@ -1,0 +1,6 @@
+{% macro render_social_icons(project) %}
+  <ul class="social-icons">
+    <li><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ [site.config.PROJECT.domain, project.path]|join('')|urlencode }}"><img src="/static/images/social-icons/Facebook.png" alt="Share on Facebook" /></a></li>
+    <li><a target="_blank" href="https://twitter.com/home?status={{ [site.config.PROJECT.domain, project.path]|join('')|urlencode }}"><img src="/static/images/social-icons/Twitter.png" alt="Share on Twitter" /></a></li>
+  </ul>
+{% endmacro %}

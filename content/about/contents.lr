@@ -1,0 +1,42 @@
+title: About
+---
+css_wrapper: prefix-25 grid-50 mobile-prefix-10 mobile-grid-80 text-center
+---
+body:
+
+<img src="/static/images/lorenzo-portrait.jpg" class="img-circle img-responsive img-centered" alt="Portrait of Christina Lorenzo" title="Portrait of Christina Lorenzo"/>
+
+      <h1 class="text-heading pb-half pt-1">The Vision</h1>
+      <h3 class="pb-half">Engage, Educate, Empower</h3>
+      <p class="pb-2">As a professional medical illustrator, Christina creates engaging health education visual solutions that enhance the communication between clinicians and their patients. Through a combination of accurate and meaningful illustrations, 3D models, graphics, and interactive learning media she aims to strengthen patients' relationships with their healthcare providers, educate patients, promote shared decision making, and ultimately empower patients to take control of their health.</p>
+      
+      <div class="separator pb-2 grid-50"></div>
+     
+      <h1 class="text-heading pb-half">The Illustrator</h1>
+      <h3 class="pb-half">Christina Lorenzo</h3>
+      <p class="pb-1">Christina received her Bachelor of Science in <a href="http://www.bu.edu/sargent/academics/programs/human-physiology/bs-in-human-physiology/" target="_blank" alt="BS in Human Physiology">Human Physiology</a> from Boston University. After graduating, she worked directly with clinicians and patients in cardiac electrophysiology and nephrology clinical research. Christina received her Master of Science in <a href="http://ahs.uic.edu/biomedical-health-information-sciences/admissions-and-programs/ms-in-biomedical-visualization/" target="_blank" alt="MS in Biomedical Visualization">Biomedical Visualization</a> from the University of Illinois at Chicago. During her time in graduate school she interned as an eLearning Designer at <a href="https://www.medline.com/" target="_blank" alt="Medline Industries">Medline Industries, Inc.</a> helping to build interactive continuing education courses for clinicians.</p>
+
+      <p class="pb-2">Currently, Christina is collaborating with <a href="https://www.rushu.rush.edu/faculty/rasa-kazlauskaite-md-msc-face" target="_blank" alt="Rush Profile for Rasa Kazlauskaite">Dr. Rasa Kazlauskaite</a> at the Rush University Medical Center to build and test an interactive learning tool to educate patients with type 2 diabetes about continuous glucose monitoring. She is also contracting with <a href="http://bodyscientific.com/" target="_blank">Body Scientific International</a> to create surgical, anatomical, and educational illustrations for print.</p>
+
+      <div class="separator pb-1 grid-50"></div>
+      
+      <h3 class="pb-half">Academic Achievement Award</h3>
+      <p class="pb-1">The College of Applied Health Sciences recognized Christina for her overall academic performance and service as a leader.</p>
+      
+      <h3 class="pb-half">Impact Scholar</h3>
+      <p class="pb-1">Christina was recognized by the University of Illinois at Chicago for her engagement in high impact practices at the university.</p>
+      
+      <h3 class="pb-half">Vesalian Scholar</h3>
+      <p class="pb-2">Christina's research on Developing Interactive Learning for Continuous Glucose Monitoring was recognized by the <a href="http://www.vesaliustrust.org/" target="_blank">Vesalius Trust for Visual Communications in the Health Sciences</a>.</p>
+
+      <div class="separator pb-1 grid-50"></div>
+      
+      <h3 class="pb-1"><a href="/images/LorenzoC_CurriculumVitae_20170620.pdf" download="clorenzo-cv.pdf">Curriculum Vitae PDF</a></h3>
+      
+      <div class="separator pb-1 grid-50"></div>
+      
+      <h3 class="pb-half">Memberships</h3>
+
+      <p class="pb-2">Christina is a member of the <a href="http://www.ami.org/" target="_blank" alt="Association of Medical Illustrators">Association of Medical Illustrators</a> and has been invited to present her research at the <a href="http://ami.org/meetings/2017/" target="_blank">annual professional conference</a> in July 2017.</p>
+      <a href="http://www.ami.org/" target="_blank"><img src="/static/images/AMI_RGB_Horizontal_2color.png" class="pb-1 img-responsive img-centered" alt="Association of Medical Illustrators" title="Association of Medical Illustrators Logo"/></a>
+    </div>

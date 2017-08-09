@@ -1,0 +1,17 @@
+_model: project
+---
+title: Tracheostomy
+---
+sort_key: 6
+---
+body:
+
+<p class="pb-1">This patient education illustration shows the placement of the tracheostomy tube within the patient's trachea.</p>
+
+<p class="pb-2">This illustration was created in collaboration with Dr. Lisa Brown at the Department of Otolarynology at the University of Illinois Hospital and Health Sciences System.</p>
+---
+figure: tracheostomy-web.jpg
+---
+thumbnail: tracheostomy-thumbnail.jpg
+---
+share_image: tracheostomy-share.jpg

@@ -1,0 +1,9 @@
+[project]
+name = Lorenzo Studios
+domain = http://lorenzo-studios.com
+
+[servers.production]
+name = Production
+enabled = yes
+default = yes
+target = ghpages://clorenzo/lorenzo-studios?cname=lorenzo-studios.com

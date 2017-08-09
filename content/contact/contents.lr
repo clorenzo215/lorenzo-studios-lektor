@@ -1,0 +1,54 @@
+title: Contact
+---
+external_scripts: <script src="https://use.fontawesome.com/5c7360d14b.js"></script>
+---
+css_wrapper: prefix-33 grid-33 mobile-prefix-10 mobile-grid-80
+---
+body:
+
+<img src="/static/images/Chicago.jpg" class="img-responsive pb-2" alt="Map of Chicago" title="Map of Chicago"/>
+
+<h3 class="pb-half"> Contact Lorenzo Studios </h3>
+<p class="pb-half">Ask questions, get a quote, and<br/> start your next project!</p>
+
+<table class="contact pt-1 pb-1">
+<tr>
+  <td><i class="fa fa-envelope fa-lg" aria-hidden="true" title="email"></i></td>
+  <td>christina@lorenzo-studios.com</td>
+</tr>
+<tr>
+  <td><i class="fa fa-phone-square fa-lg" aria-hidden="true" title="phone"></i></td>
+  <td><a href="tel:401-368-5131">401-368-5131</a></td>
+</tr>
+<tr>
+  <td><i class="fa fa-address-card fa-lg" aria-hidden="true" title="address"></i></td>
+  <td>
+    <address>
+      PO Box 221202<br/>
+      Chicago, IL 60622
+    </address>
+  </td>
+</tr>
+</table>
+
+<div class="separator pb-2"></div>
+
+<h3 class="pb-half">Follow Lorenzo Studios</h3>
+<table class="contact">
+<tr>
+  <td>
+    <i class="fa fa-twitter-square fa-lg" aria-hidden="true" title="Twitter"></i>
+  </td>
+  <td>
+    <a href="https://twitter.com/lorenzo_studios" target="_blank">@Lorenzo_Studios</a>
+  </td>
+</tr>
+<tr>
+  <td>
+    <i class="fa fa-linkedin-square fa-lg" aria-hidden="true" title="LinkedIn"></i>
+  </td>
+  <td>
+    <a href="https://www.linkedin.com/in/christina-lorenzo/" target="_blank">LinkedIn Profile</a>
+  </td>
+</tr>
+</table>

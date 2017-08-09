@@ -1,0 +1,13 @@
+{% macro render_meta_tags(project) %}
+	{% if project.meta_tags %}
+		{{ project.meta_tags }}
+	{% elif project.share_image %}
+		<meta property="og:url" content="{{ project.path|url }}" />
+		<meta property="og:title" content="{{ project.title }}" />
+		<meta property="og:description" content="{{ project.description }}" />
+		<meta property="og:image" content="{{ project.share_image|url }}" />
+
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:creator" content="@lorenzo_studios" />
+	{% endif %}
+{% endmacro %}

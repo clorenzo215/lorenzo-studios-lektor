@@ -1,0 +1,26 @@
+title: CGM Research Project
+---
+sort_key: 1
+---
+body:
+
+      <h2 class="text-heading pb-1">Developing Interactive Learning for Continuous Glucose Monitoring</h2>
+      
+      <h3 class="pb-half">Description of Project</h3>
+      <p class="pb-2">This ongoing research investigates how to develop an interactive learning tool to educate patients with type 2 diabetes about continuous glucose monitoring (CGM). The tool runs real-life scenarios that visualize how meal choices affect glucose trajectories in both healthy patients and patients with type 2 diabetes. It is intended that the tool will be used by the clinician to engage the patient in an educational discussion about CGM. From this discussion the patient would then apply what they learned to their own CGM data. The first phase of research, which served as my graduate project, involved developing the tool and testing its effectiveness on 17 health professionals who serve on the diabetes care team. The next phase of research will begin in late 2017 and involves testing the refined tool on patients with type 2 diabetes. The final product will be made available to patients online through the Rush Patient Portal. This research project is in collaboration with Rasa Kazlauskaite, M.D., at the Rush University Medical Center in Chicago, Illinois.</p>
+
+      <h3 class="pb-half">Recognition</h3>
+      <p class="pb-2">Christina was recognized as the 2017 Vesalian Scholar for this research project by the <a href="http://www.vesaliustrust.org/" target="_blank" alt="Vesalius Trust">Vesalius Trust for Visual Communication in the Health Sciences</a> and was invited to present this research at the <a href="http://ami.org/meetings/2017/" target="_blank">2017 annual conference</a> for the Association of Medical Illustrators.</p>
+
+      <h3 class="pb-half">Research Committee</h3>
+      <p class="pb-2">Committee Chair: <a href="http://ahs.uic.edu/biomedical-health-information-sciences/directory/young-christine/" target="_blank" alt="UIC Profile for Christine Young">Christine Young, MA CMI FAMI</a></br>
+        Committee Member: <a href="http://ahs.uic.edu/biomedical-health-information-sciences/directory/hughes-donna/" target="_blank" alt="UIC Profile for Donna Hughes">Donna Hughes, MA</a></br>
+        Committee Member: <a href="http://ahs.uic.edu/biomedical-health-information-sciences/directory/lebowicz-leah-amanda/" target="_blank" alt="UIC Profile for Leah Lebowicz">Leah Lebowicz, MS CMI</a></br>
+        Content Expert: <a href="https://www.rushu.rush.edu/faculty/rasa-kazlauskaite-md-msc-face" target="_blank" alt="Rush Profile for Rasa Kazlauskaite">Rasa Kazlauskaite, MD MSc FACE</a>
+      </p>
+---
+figure_html: <iframe src="/static/cgm/story.html" width="100%" height="700px"></iframe>
+---
+share_image: cgm-share.jpg
+---
+thumbnail: cgm-thumbnail.jpg

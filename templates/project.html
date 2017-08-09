@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+{% from "macros/social_icons.html" import render_social_icons %}
+{% from "macros/meta_tags.html" import render_meta_tags %}
+
+{% block meta_tags %}{{ render_meta_tags(this) }}{% endblock %}
+
+{% block title %}{{ this.title }}{% endblock %}
+
+{% block body %}
+  {% if this.figure_html %}
+	  {{ this.figure_html }}
+	{% elif this.figure_video_url %}
+		<div class="text-center">
+    	<div class="embed-container">
+       	<iframe src="{{ this.figure_video_url }}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+      </div>
+    </div>
+  {% else %}
+	  <img src="{{ this.figure|url }}" alt="{{ this.title }}" title="{{ this.title }}" class="img-responsive img-shadow" />
+  {% endif %}
+
+  <h1 class="text-heading pb-half pt-1">
+    {% if this.detailed_title %}
+      {{ this.detailed_title }}
+    {% else %}
+      {{ this.title }}
+    {% endif %}
+  </h1>
+
+  {{ this.body }}
+
+  {{ render_social_icons(this) }}
+{% endblock %}
