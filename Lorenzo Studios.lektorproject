@@ -6,4 +6,4 @@ domain = http://lorenzo-studios.com
 name = Production
 enabled = yes
 default = yes
-target = ghpages://clorenzo/lorenzo-studios?cname=lorenzo-studios.com
+target = ghpages://clorenzo215/lorenzo-studios?cname=lorenzo-studios.com
