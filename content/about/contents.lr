@@ -31,7 +31,7 @@ body:
 
       <div class="separator pb-1 grid-50"></div>
       
-      <h3 class="pb-1"><a href="/images/LorenzoC_CurriculumVitae_20170620.pdf" download="clorenzo-cv.pdf">Curriculum Vitae PDF</a></h3>
+      <h3 class="pb-1"><a href="/static/images/LorenzoC_CurriculumVitae_20170620.pdf" download="clorenzo-cv.pdf">Curriculum Vitae PDF</a></h3>
       
       <div class="separator pb-1 grid-50"></div>
       
