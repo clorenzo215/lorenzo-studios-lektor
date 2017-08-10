@@ -2,7 +2,7 @@ title: Cancer-Immunity Cycle
 ---
 body:
 
- <p class="pb-2">This cycle has been reimagined from the original developed by Dan Chen and Ira Mellman. Each stage of the cycle is tagged with one of three immune profiles, which are associated with various immunotherapy approaches to cancer treatment.</p>
+ <p class="pb-2">This interactive visual aid (IVA) reimagines the cancer-immunity cycle developed by Dan Chen, MD, PhD and Ira Mellman, PhD with Genentech, Inc. to depict the interactions between the immune system and cancer. This IVA informs oncologists about the seven steps of the cancer-immunity cycle and how the three immune profiles relate to the cycle. It is intended that the interactive visual aid will be navigated by a pharmaceutical sales representative during an in-service training session to prepare the oncologists to receive information about new immunotherapy drugs that target human immunity to fight cancer. The representative will tap on the circled numbers to animate each step and tap on the colored circles in the lower right corner to highlight the relationship between each immune profile and its corresponding cycle steps.</p>
 ---
 figure_video_url: https://player.vimeo.com/video/227906916
 ---
