@@ -18,22 +18,20 @@
 <body>
   <header class="text-heading">
     <div class="header-content content">
-      <div class="logo-wrap prefix-5">
-        <a href="{{ '/contact'|url }}"><img class="logo header-logo" src="{{ '/static/images/logo-solid.svg'|url }}" alt="Lorenzo Studios" /></a>
+      
+      <div class="prefix-5">
+        <a href="/">CME Design</a>
       </div>
 
       <nav class="suffix-5">
         {% for href, title in [
-          ['/work', 'Work'],
+          ['/', 'Portfolio'],
           ['/about', 'About'],
           ['/contact', 'Contact']
         ] %}
-          <a 
-            {% if this.is_child_of(href) %}
-            class="text-underline"
-            {% endif %}
-            href="{{ href }}"
-          >{{ title }}</a>
+          {% if not this._path == href %}
+          <a href="{{ href }}" >{{ title }}</a>
+          {% endif %}
         {% endfor %}
       </nav>
     </div>
@@ -48,7 +46,7 @@
     {% block body %}{% endblock %}
     </div>
   <footer class="suffix-5">
-    &copy; {{ site.config.PROJECT.name }} 2018
+    &copy; {{ site.config.PROJECT.name }} 2020
   </footer>
 </body>
 </html>

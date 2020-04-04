@@ -1,0 +1,9 @@
+[project]
+name = CME Design
+domain = http://cme.design
+
+[servers.production]
+name = Production
+enabled = yes
+default = yes
+target = ghpages://clorenzo215/cme-design?cname=cme.design

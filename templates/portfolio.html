@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+<div class="hero">
+	<div class="item">
+    <h1>
+      Creative<br>
+      Med Ed<br>
+      Design
+    <h1>
+  </div>
+  <div class="item">
+    <h3>
+      Transform your medical and scientific content into innovative visual learning solutions to engage your peers, educate your students, and motivate your patients.
+    </h3>
+  </div>
+</div>
+
+<h2 class="text-center" style="margin: 60px 0px;">Portfolio</h2>
+
+<ul class="gallery">
+  {% for project in site.query('/work') %}
+    <li><a href="{{ project.path|url }}"><img src="{{ [project.path, project.thumbnail]|join('/')|url }}" alt="{{ project.title }}" title="{{ project.title }}" /></a></li>
+  {% endfor %}
+</ul>
+{% endblock %}

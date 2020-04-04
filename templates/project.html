@@ -19,13 +19,13 @@
 	  <img src="{{ this.figure|url }}" alt="{{ this.title }}" title="{{ this.title }}" class="img-responsive img-shadow" />
   {% endif %}
 
-  <h1 class="text-heading pb-half pt-1">
+  <h2 class="text-heading pb-half pt-1">
     {% if this.detailed_title %}
       {{ this.detailed_title }}
     {% else %}
       {{ this.title }}
     {% endif %}
-  </h1>
+  </h2>
 
   {{ this.body }}
 

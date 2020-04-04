@@ -1,54 +1,44 @@
+_model: page
+---
 title: Contact
 ---
-external_scripts: <script src="https://use.fontawesome.com/5c7360d14b.js"></script>
+external_scripts: <script src="https://kit.fontawesome.com/6b6ed2aedf.js" crossorigin="anonymous"></script>
 ---
 css_wrapper: prefix-33 grid-33 mobile-prefix-10 mobile-grid-80
 ---
 body:
 
-<img src="/static/images/Chicago.jpg" class="img-responsive pb-2" alt="Map of Chicago" title="Map of Chicago"/>
+<h2>Contact</h2>
 
-<h3 class="pb-half"> Contact Lorenzo Studios </h3>
-<p class="pb-half">Ask questions, get a quote, and<br/> start your next project!</p>
+<p class="pb-1">Thank you for your interest in Creative Med Ed Design. For any inquiries or to start a new project, please get in touch and I’ll be happy to assist you!</p>
+
+<p>CME Design is based out of Chicago, IL</p>
 
 <table class="contact pt-1 pb-1">
 <tr>
   <td><i class="fa fa-envelope fa-lg" aria-hidden="true" title="email"></i></td>
-  <td>christina@lorenzo-studios.com</td>
+  <td><a href="mailto:christina@cme.design">christina@cme.design</a></td>
 </tr>
 <tr>
   <td><i class="fa fa-phone-square fa-lg" aria-hidden="true" title="phone"></i></td>
   <td><a href="tel:401-368-5131">401-368-5131</a></td>
 </tr>
 <tr>
-  <td><i class="fa fa-address-card fa-lg" aria-hidden="true" title="address"></i></td>
   <td>
-    <address>
-      PO Box 221202<br/>
-      Chicago, IL 60622
-    </address>
-  </td>
-</tr>
-</table>
-
-<div class="separator pb-2"></div>
-
-<h3 class="pb-half">Follow Lorenzo Studios</h3>
-<table class="contact">
-<tr>
-  <td>
-    <i class="fa fa-twitter-square fa-lg" aria-hidden="true" title="Twitter"></i>
+    <i class="fa fa-instagram fa-lg" aria-hidden="true" title="Instagram"></i>
   </td>
   <td>
-    <a href="https://twitter.com/lorenzo_studios" target="_blank">@Lorenzo_Studios</a>
+    <a href="https://instagram.com/cme.design" target="_blank">cme.design</a>
   </td>
 </tr>
 <tr>
   <td>
-    <i class="fa fa-linkedin-square fa-lg" aria-hidden="true" title="LinkedIn"></i>
+    <i class="fa fa-linkedin fa-lg" aria-hidden="true" title="LinkedIn"></i>
   </td>
   <td>
     <a href="https://www.linkedin.com/in/christina-lorenzo/" target="_blank">LinkedIn Profile</a>
   </td>
 </tr>
 </table>
+
+<img class="img-responsive img-centered" src="/static/images/chicago.png" />

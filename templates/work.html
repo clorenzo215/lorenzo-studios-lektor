@@ -1,9 +1,0 @@
-{% extends "layout.html" %}
-{% block title %}{{ this.title }}{% endblock %}
-{% block body %}
-<ul class="gallery">
-	{% for project in this.children %}
-		<li><a href="{{ project.path|url }}"><img src="{{ [project.path, project.thumbnail]|join('/')|url }}" alt="{{ project.title }}" title="{{ project.title }}" /></a></li>
-	{% endfor %}
-</ul>
-{% endblock %}

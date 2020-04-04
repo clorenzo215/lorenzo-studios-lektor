@@ -1,46 +1,120 @@
+_model: page
+---
 title: About
 ---
-css_wrapper: prefix-25 grid-50 mobile-prefix-10 mobile-grid-80 text-center
+css_wrapper: prefix-15 grid-70 text-center
+---
+external_scripts:
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+<script>
+$(document).ready(function(){
+  $('#testimonials').slick({
+    autoplay: true,
+    autoplaySpeed: 5000, // milliseconds
+    dots: true
+  });
+});
+</script>
 ---
 body:
 
-<img src="/static/images/lorenzo-portrait.jpg" class="img-circle img-responsive img-centered" alt="Portrait of Christina Lorenzo" title="Portrait of Christina Lorenzo"/>
+<h2 class="pb-1">About the Designer</h2>
+<h3 class="pb-1">Christina Lorenzo, MS</h3>
 
-      <h1 class="text-heading pb-half pt-1">Visual Health Communicator</h1>
-      <h3 class="pb-half">Mission</h3>
-      <p class="pb-2">Christina Lorenzo translates complex medical concepts into accurate and meaningful illustrations, 3D models, graphics, and interactive learning media. Through developing these engaging visual solutions, she aims to educate health professionals, enhance the communication between clinicians and their patients, and empower patients to take control of their health.</p>
-      
-      <div class="separator pb-2 grid-50"></div>
-     
-      <h1 class="text-heading pb-half">Experience</h1>
-<h3 class="pb-half">Current Work</h3>
-      <p class="pb-1"> Christina works as an e-Learning Instructional Designer at the <a href="http://www.chestnet.org/Education/Advanced-Clinical-Training/eLearning" target="_blank">American College of Chest Physicians</a> creating personalized continuing medical education programs for pulmonologists. </p>      
-<h3 class="pb-half">Background</h3>
-      <p class="pb-1">Christina received her Bachelor of Science in <a href="http://www.bu.edu/sargent/academics/programs/human-physiology/bs-in-human-physiology/" target="_blank" alt="BS in Human Physiology">Human Physiology</a> from Boston University. After graduating, she worked directly with clinicians and patients in cardiac electrophysiology and nephrology clinical research. Christina received her Master of Science in <a href="http://ahs.uic.edu/biomedical-health-information-sciences/admissions-and-programs/ms-in-biomedical-visualization/" target="_blank" alt="MS in Biomedical Visualization">Biomedical Visualization</a> from the University of Illinois at Chicago. During her time in graduate school she interned as an eLearning Designer at <a href="https://www.medline.com/" target="_blank" alt="Medline Industries">Medline Industries, Inc.</a> helping to build interactive continuing education courses for clinicians.</p>
-<h3 class="pb-half">Recent Projects</h3>
-      <p class="pb-2"> Christina recently collaborated with <a href="https://www.rushu.rush.edu/faculty/rasa-kazlauskaite-md-msc-face" target="_blank" alt="Rush Profile for Rasa Kazlauskaite">Dr. Rasa Kazlauskaite</a> at the Rush University Medical Center to test an interactive learning tool to educate patients with type 2 diabetes about continuous glucose monitoring. She also contracted with <a href="http://bodyscientific.com/" target="_blank">Body Scientific International</a> to create surgical, anatomical, and educational illustrations for print.</p>
+<img src="/static/images/lorenzo-portrait.jpg" class="img-circle img-responsive img-centered img-portrait" alt="Portrait of Christina Lorenzo" title="Portrait of Christina Lorenzo"/>
 
-      <div class="separator pb-1 grid-50"></div>
-        <h1 class="text-heading pb-half">Awards</h1>
-     <h3 class="pb-half">Vesalian Scholar</h3>
-      <p class="pb-1">Christina's research on Developing Interactive Learning for Continuous Glucose Monitoring was recognized by the <a href="http://www.vesaliustrust.org/" target="_blank">Vesalius Trust for Visual Communications in the Health Sciences</a>.</p>
+<p class="pb-1 pt-1">
+  Christina Lorenzo is an award-winning creative medical education designer with extensive experience in medicine, science, multimedia and adult learning which translates into innovative and effective learning solutions.
+</p>
 
- <h3 class="pb-half">Achievement Award</h3>
-      <p class="pb-1">The College of Applied Health Sciences recognized Christina for her overall academic performance and service as a leader.</p>
-      
-      <h3 class="pb-half">Impact Scholar</h3>
-      <p class="pb-2">Christina was recognized by the University of Illinois at Chicago for her engagement in high impact practices at the university.</p>
-      
-      
+<p class="pb-1">
+  Christina received her Masters in Biomedical Visualization at the University of Illinois at Chicago and her Bachelors in Human Physiology at Boston University. In between her academic studies, she gained a deep understanding of patient-centered care, surgical procedures, and multidisciplinary in-hospital teams through her career in clinical research in emergency medicine at Brigham and Women's, cardiac electrophysiology at UC San Diego and kidney transplantation at California Institute of Renal Research. Christina's knack for efficiently on boarding Principal Investigators and fellows on exhaustive protocols and for developing techniques to ensure patient compliance was the catalyst for her to specialize in educating clinicians and patients and ultimately launch Creative Med Ed Design.
+</p>
 
-      <div class="separator pb-1 grid-50"></div>
-      
-      <h3 class="pb-1"><a href="/static/images/LorenzoC_CurriculumVitae_20180424.pdf" download="clorenzo-cv.pdf">Curriculum Vitae PDF</a></h3>
-      
-      <div class="separator pb-1 grid-50"></div>
-      
-      <h3 class="pb-half">Memberships</h3>
+<p class="pb-1">
+  In addition to running Creative Med Ed Design, Christina is energized by her work as a Senior e-Learning Instructional Designer at the American College of Chest Physicians. There she is experimenting beyond the traditional boundaries of CME with bite-sized modules, mini video series, webinars, podcasts, social media campaigns, and games. Her passion is further fueled by her role as the liaison to the Innovations Subcommittee, with whom she collaborates to design and test new online learning techniques.
+</p>
 
-      <p class="pb-2">Christina is a member of the <a href="http://www.ami.org/" target="_blank" alt="Association of Medical Illustrators">Association of Medical Illustrators</a> and was a speaker at the <a href="http://ami.org/meetings/2017/" target="_blank">2017 annual professional conference</a> where she presented her research process.</p>
-      <a href="http://www.ami.org/" target="_blank"><img src="/static/images/AMI_RGB_Horizontal_2color.png" class="pb-1 img-responsive img-centered" alt="Association of Medical Illustrators" title="Association of Medical Illustrators Logo"/></a>
-    </div>
+<h2 class="pt-1 pb-half">Testimonials</h2>
+<div id="testimonials" class="pb-1">
+  <div class="testimonial">
+    <h3>Hassan Bencheqroun, MD FCCP</h3>
+    <h3>Respire Clinical Research Group</h3>
+    <p class="pt-1">
+      "I have worked with Christina on a number of projects, including a few educational ones which we were tasked to gamify. It wasn't easy to find a common bicoastal time for several faculty in the group, remotely keep them motivated and yet manage to have them stay within goalposts set by the sponsoring entity. I was quite impressed by how Christina gets the project done, all the while making everyone feel included, every voice feel heard, and even those lagging behind to bring them back without judgment or reprimand, only focus on getting the project done within the timeline requested. It takes skill, discipline, graciousness, diplomacy, smarts to understand how a project translates into the reality of the computerized game, a keen eye for the right person at any time, and a selfless personality to be the unsung heroine that made a project see the light, yet take no real credit for it. If anyone wishes to translate a multi pronged project into an audio visual display with multiple restrictions on funding, resources, and time, and still deliver a good product, I'd point to Christina without hesitation."
+    </p>
+  </div>
+
+  <div class="testimonial">
+    <h3>Curtis Weiss, MD</h3>
+    <h3>NorthShore University HealthSystem</h3>
+    <p class="pt-1">
+      "Christina was an amazing leader for an eLearning project in which I participated! She was highly organized, professional, and easy to work with."
+    </p>
+  </div>
+
+  <div class="testimonial">
+    <h3>Sarah Lewis</h3>
+    <h3>Mindset Consulting LLC</h3>
+    <p class="pt-1">
+      "Christina is an extremely intelligent and enjoyable partner to have on any instructional design or training development project. She is creative and hyper-focused on achieving results while still maintaining project timeline and budgetary requirements. Christina is dependable, organized, and possesses an innate ability to collaborate with anyone. She is truly a joy to work with side-by-side!"
+    </p>
+  </div> 
+
+  <div class="testimonial">
+    <h3>Jaime McDonald</h3>
+    <h3>The Game Agency</h3>
+    <p class="pt-1">
+      "I recently collaborated with Christina on a series of training games designed to help clinicians treat patients with COPD. She provided endless insights into the patient journey and the HCP role in ensuring better outcomes. In addition to having a complete grasp of the business goals, her creative, strategic and design chops are second to none. Christina is always a pleasure to work with, delivering thoughtful and thorough guidance each step of the way. She's is an extremely reliable partner and one with whom I hope to work with for years to come."
+    </p>
+  </div>
+
+  <div class="testimonial">
+    <h3>Calvin VanOpstall, PhD</h3>
+    <h3>University of Illinois at Chicago</h3>
+    <p class="pt-1">
+      "Working with Christina was a great pleasure! I needed a graphical abstract created based on my PhD research in cancer biology, that could be used for scientific publication and presentation. Christina was very professional and had very quick turn-around on all my comments. We started with a phone call to define the expectations and give her a clear sense of the research she would be illustrating. She then created a preliminary sketch that was revised through several iterations until I was thrilled with the result! It was very clear that Christina was invested in the project and really wanted to make sure the story of my research came across perfectly. She is wonderful to work with and is a talented illustrator. I will (and have) recommend her to anyone looking for scientific or medical illustration."
+    </p>
+  </div>
+</div>
+
+<h2 class="pt-1 pb-half">Awards</h2>
+<h3>Vesalian Scholar</h3>
+<p class="pb-1">Christina's research on Developing Interactive Learning for Continuous Glucose Monitoring was recognized by the <a href="http://www.vesaliustrust.org/" target="_blank">Vesalius Trust for Visual Communications in the Health Sciences</a>.</p>
+
+<h3>Achievement Award</h3>
+<p class="pb-1">The College of Applied Health Sciences recognized Christina for her overall academic performance and service as a leader.</p>
+      
+<h3>Impact Scholar</h3>
+<p class="pb-2">Christina was recognized by the University of Illinois at Chicago for her engagement in high impact practices at the university.</p>
+      
+<h2 class="pt-half pb-half">Memberships</h2>
+      
+<p class="pb-1">
+Christina is a member of the ACCME, IACME, eLearning Guild and AMI, and actively shares her best practices and expertise with fellow educators through think tanks, conference sessions and webinars.
+</p>
+
+<div class="membership-logos">
+  <a href="http://www.accme.org/" target="_blank">
+    <img src="/static/images/accme.png" class="pb-1 img-responsive img-centered" alt="Accreditation Council for Continuing Medical Education" title="Accreditation Council for Continuing Medical Education"/>
+  </a>
+
+  <a href="http://www.iacmeonline.org/" target="_blank">
+    <img src="/static/images/iacme.jpeg" class="pb-1 img-responsive img-centered" alt="Illinois Alliance for Continuing Medical Education" title="Illinois Alliance for Continuing Medical Education"/>
+  </a>
+
+  <a href="http://www.elearningguild.com/" target="_blank">
+    <img src="/static/images/elearning-guild.png" class="pb-1 img-responsive img-centered" alt="The eLearning Guild" title="The eLearning Guild"/>
+  </a>
+
+  <a href="http://www.ami.org/" target="_blank">
+    <img src="/static/images/AMI_RGB_Horizontal_2color.png" class="pb-1 img-responsive img-centered" alt="Association of Medical Illustrators" title="Association of Medical Illustrators Logo"/>
+  </a>
+</div>
