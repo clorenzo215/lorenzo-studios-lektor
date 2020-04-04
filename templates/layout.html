@@ -30,7 +30,7 @@
           [['/contact'], 'Contact']
         ] %}
           {% if not this._path in hrefs %}
-          <a href="{{ href }}" >{{ title }}</a>
+          <a href="{{ hrefs[0] }}" >{{ title }}</a>
           {% endif %}
         {% endfor %}
       </nav>
