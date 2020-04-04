@@ -24,12 +24,12 @@
       </div>
 
       <nav class="suffix-5">
-        {% for href, title in [
-          ['/', 'Portfolio'],
-          ['/about', 'About'],
-          ['/contact', 'Contact']
+        {% for hrefs, title in [
+          [['/', '/work'], 'Portfolio'],
+          [['/about'], 'About'],
+          [['/contact'], 'Contact']
         ] %}
-          {% if not this._path == href %}
+          {% if not this._path in hrefs %}
           <a href="{{ href }}" >{{ title }}</a>
           {% endif %}
         {% endfor %}
