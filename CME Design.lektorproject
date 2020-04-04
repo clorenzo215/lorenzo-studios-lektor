@@ -6,4 +6,4 @@ domain = http://cme.design
 name = Production
 enabled = yes
 default = yes
-target = ghpages://clorenzo215/cme-design?cname=cme.design
+target = ghpages+https://clorenzo215/cme-design
