@@ -1,26 +1,3 @@
-/* fonts */
-@font-face {
-font-family: 'Brandon Grotesque Light';
-font-style: normal;
-font-weight: normal;
-src: local('Brandon Grotesque Light'), url('brandon-grotesque-light-58a8a4b38001d.woff') format('woff');
-}
-
-
-@font-face {
-font-family: 'Brandon Grotesque Light Italic';
-font-style: normal;
-font-weight: normal;
-src: local('Brandon Grotesque Light Italic'), url('brandon-grotesque-light-italic-58a8a4ccb88be.woff') format('woff');
-}
-
-@font-face {
-font-family: 'Brandon Grotesque Black';
-font-style: normal;
-font-weight: normal;
-src: local('Brandon Grotesque Black'), url('brandon-grotesque-black-58a8a3e824392.woff') format('woff');
-}
-
 html {
   overflow-y: scroll;
 }
@@ -28,9 +5,10 @@ html {
 body {
   margin: 0px;
   background-size: 100px;
-  font-family: 'Brandon Grotesque Light';
+  font-family: 'Josefin Sans', sans-serif;
   color: #181818;
   font-size: 1.1em;
+  line-height: 1.5em;
 }
 
 address {
